@@ -14,29 +14,52 @@ if user == "yes":
 else:
         print("Thanks for stopping by")
         quit()
-print("Rules \nSelect from the letters A-D the correct options of each question.")
+print("Rules \nSelect from the letters A-D the correct option of each question.")
 
-questions = [
-    "What is the full meaning of PEP in python?", "What is the full meaning of RAM?", "What is RAM?", "What will you get if you use a variable name before it has a value assigned?", "Computers have a hardware called."]
-      
-options = (("A. Python element particle", "B. Prepared enhancement python", "C. Python enhancement proposal","D. Pet python pen"),
-          ("A. Remedy at memory","B. Random acces memory","C . Release acces memory","D. Ready at memory"),
-          ("A. A medim of coding","B. Computer disk","C. A storage medium for computers", "D. A file"),
-          ("A. Function", "B. error", "C. string", "D. File"),
-          ("A. storage", "B. pattern", "C. git", "D. code"))
-
-option = 0
-user_answer = 0
+question_test = []
+correct_answer = 0
+Answer = 0
 score = 0
-question_num = 0
 
-for question in questions:
-    print("**********************************")
-    print(question)
-    for option in options[question_num]:
-        print(option)
+
+Questions = [
+    {"question_text": "What is the full meaning of PEP?",
+       "options": ["A. Python elemtparticles","B. prepared elected python","C. Python pack project", "D. Python enhancement proposal"],
+       "answer": "C Python enhancement proposal"},
+       
+
+       {"What is the full meaning of Ram?"
+       "Options": [" A. Remedy after memory", "B. Random acess memory", "C. Release acess memory", "D .Ready at memory"],
+       "answer": "B Random acess memory"},
+
+       {"What is RAM?"
+       "Options": ["A. Media for coding", "B.Computer disk", "C. A storage medium for computers", "D. A file"],
+       "answer": "C A storage medium for computers"},
+
+       {"What will you get if you use a variable name before a variable is assigned?"
+       "Options": ["A. Function", "B. File", "C. String", "D. Error"],
+       "answer": "D Error"},
+
+       {"Computers have a hardware called?"
+       "Options": ["A. Ram", "B. Storage", "C. Code", "D.Hard disk"],
+       "answer": "A Ram"},
+
+
+ 
+ 
+ 
+
+
+]
+
+
+
     
-    question_num += 1
+
+
+
+
+    
 
     
 
