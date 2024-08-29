@@ -15,42 +15,49 @@ else:
         print("Thanks for stopping by")
         quit()
 print("Rules \nSelect from the letters A-D the correct option of each question.")
-
-question_test = []
-correct_answer = 0
-Answer = 0
-score = 0
+print("****************************************************************")
 
 
-Questions = [
-    {"question_text": "What is the full meaning of PEP?",
-       "options": ["A. Python elemtparticles","B. prepared elected python","C. Python pack project", "D. Python enhancement proposal"],
-       "answer": "C Python enhancement proposal"},
+
+quiz_data = [
+   {   
+       "question": "What is the full meaning of PEP?",
+
+    "options": ("A) Python element particles","B. prepared elected python","C. Python pack project","D. Python enhancement proposal"),
+       "answer":"C"
+       },
        
+       {
+        "question": "What is the full meaning of Ram?",
+       "options": ("A) Remedy after memory","B) Random acess memory","C) Release acess memory","D) Ready at memory"),
+       "answer":"B"
+       },
 
-       {"What is the full meaning of Ram?"
-       "Options": [" A. Remedy after memory", "B. Random acess memory", "C. Release acess memory", "D .Ready at memory"],
-       "answer": "B Random acess memory"},
+       {"question": "What is RAM?",
+       "options": ("A) Media for coding","B) Computer disk","C) A storage medium for computers","D) A file"),
+       "answer":"C"
+       },
+    
+       {"question": "What will you get if you use a variable name before a variable is assigned?",
+       "options" : ("A) Function", "B) File", "C) String", "D) Error"),
+       "answer":"D"
+       },
 
-       {"What is RAM?"
-       "Options": ["A. Media for coding", "B.Computer disk", "C. A storage medium for computers", "D. A file"],
-       "answer": "C A storage medium for computers"},
-
-       {"What will you get if you use a variable name before a variable is assigned?"
-       "Options": ["A. Function", "B. File", "C. String", "D. Error"],
-       "answer": "D Error"},
-
-       {"Computers have a hardware called?"
-       "Options": ["A. Ram", "B. Storage", "C. Code", "D.Hard disk"],
-       "answer": "A Ram"},
-
-
- 
- 
- 
-
+       {"question": "Computers have a hardware called?",
+       "options" : ("A) Ram", "B) Storage", "C) Code", "D) Hard disk"),
+       "answer":"A"
+       },
 
 ]
+
+
+
+        
+    
+
+    
+    
+    
 
 
 
