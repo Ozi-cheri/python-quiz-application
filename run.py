@@ -24,6 +24,18 @@ quiz = {
       
     }
 }
+score = 0
+
+for question, details in quiz.items():
+  print(question)
+  for option in details["options"]:
+    print(option)
+  answer = input("Please enter the letter of the correct answr:")
+  if answer == details["answer"]:
+    print("Correct!Good job\n")
+    score += 1
+  else:
+    print(f"Wrong! The correct asnwer is {details['answer']}.\n")
 
 
 
