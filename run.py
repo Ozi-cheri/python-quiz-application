@@ -37,14 +37,14 @@ score = 0
 
 """Iterate through the quiz questions."""
 
-for question , details in quiz.items():
+for question,details in quiz.items():
   print(question)
   for option in details["options"] :
     print(option)
   
   """Get the player's answer."""
   
-  answer = input("Please enter the letter of the correct answer:").lower()
+  answer = input("Please enter your the answer:").lower()
   
   """Check if the answer is correct."""
   
