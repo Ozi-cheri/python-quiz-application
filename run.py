@@ -1,7 +1,7 @@
 
 
 print("Welcome to Python Quiz Application: ")
-player_name = input("Please enter your name.")
+player_name = input("Please enter your name:")
 print(f"Hello, {player_name}! If you are ready let's start the quiz.\n")
 
 quiz = {
@@ -30,13 +30,34 @@ for question, details in quiz.items():
   print(question)
   for option in details["options"]:
     print(option)
-  answer = input("Please enter the letter of the correct answr:")
+    
+  answer = input("Please enter the letter of the correct answer:").lower()
   if answer == details["answer"]:
-    print("Correct!Good job\n")
+    print("Correct!\n")
     score += 1
   else:
-    print(f"Wrong! The correct asnwer is {details['answer']}.\n")
+     print(f"Wrong! The correct answer is {details['answer']}.\n")
+  print(f"Your final score is {score}/{len(quiz)}")
+  if score == len(quiz):
+      
+      if score == len(quiz):
+       print("Excellent! Congratulations you got all the questions correct.")
+  elif score >= len(quiz) // 2:
+      print("Good job")
+  else:
+    ("Good luck next time. Keep learning. Thank you for participating.")
+    
 
+      
+     
+     
+
+     
+
+    
+     
+
+    
 
 
 
