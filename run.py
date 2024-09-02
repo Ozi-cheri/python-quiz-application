@@ -1,9 +1,13 @@
 
-"""Welcoming the player"""
+"""Welcoming the player."""
+
 print("Welcome to Python Quiz Application:")
 player_name = input("Please enter your name:")
-print(f"Hello, {player_name}! If you are ready let's start the quiz.\n")
-"""  Define the quiz questions,options and correct answers using dictionary  """
+print(f"Hello, {player_name}! let's start the quiz.\n")
+
+"""Define the quiz questions,options and 
+correct answers using dictionary.
+"""
 quiz = {
     "What is the full meaning of PEP?" : {
         "options": ["a) Python element particles", "b) Prepared elected python" ,
@@ -26,23 +30,33 @@ quiz = {
       
     }
 }
-"""Initialize score"""
+
+"""Initialize score."""
+
 score = 0
-"""  Iterate through the quiz questions  """
-for question , details in quiz.items() :
+
+"""Iterate through the quiz questions."""
+
+for question , details in quiz.items():
   print(question)
   for option in details["options"] :
     print(option)
-  """Get the player's answer"""  
-  answer = input("Please enter the letter of the correct answer:"). lower()
-  """Check if the answer is correct"""
+  
+  """Get the player's answer."""
+  
+  answer = input("Please enter the letter of the correct answer:").lower()
+  
+  """Check if the answer is correct."""
+  
   if answer == details["answer"] :
     print("Correct!\n")
     
     score += 1
-  else :
+  else:
      print(f"Wrong! The correct answer is {details['answer']}. \n")
-  """Provide feedback based on score"""
+  
+  """Provide feedback based on score."""
+  
   print(f"Your score is {score}/{len(quiz)}")
   if score == len(quiz) :
       
@@ -50,7 +64,7 @@ for question , details in quiz.items() :
        print("Excellent! Congratulations you got all the questions correct.")
   elif score >= len(quiz) // 2 :
       print("Good Job")
-  else :
+  else:
     ("Good luck next time. Keep learning. Thank you for participating.")
     
 
