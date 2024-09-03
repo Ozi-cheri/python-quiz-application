@@ -3,7 +3,7 @@
 
 This is a Python quiz application that allows a player to answer multiple-choice questions on a particular topic. The application uses dictionaries, lists, and tuples to manage the quiz data and provide a smooth user experience. Players are welcomed, they are asked to enter their names, and then participate in a quiz consisting of 4 questions. The quiz provides feedback based on the player's score at the end.
 
-## User Storiess
+## User Stories
 
 - **As a** user,i want to see my quiz score immediately after completing a quiz so that i can know ho i performed.
 - **As a** user, i want to see the correct the answer to the question i got wrong so i can learn,increase my knowledge and avoid making mistakes in future.
