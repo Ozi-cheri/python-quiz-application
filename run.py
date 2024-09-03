@@ -52,7 +52,7 @@ for question,details in quiz.items():
     
     score += 1
   else:
-     print(f"Wrong! The correct answer is {details['answer']}. \n")
+     print(f"Wrong! The correct answer is {details['answer']}.\n")
   
   """Provide feedback based on score."""
   
