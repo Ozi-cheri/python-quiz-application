@@ -1,7 +1,15 @@
 
 # Python Quiz Application
 
-This is a Python quiz application that allows a player to answer multiple-choice questions on a particular topic. The application uses dictionaries, lists, and tuples to manage the quiz data and provide a smooth user experience. Players are welcomed, prompted to enter their names, and then participate in a quiz consisting of 4 questions. The quiz provides feedback based on the player's score at the end.
+This is a Python quiz application that allows a player to answer multiple-choice questions on a particular topic. The application uses dictionaries, lists, and tuples to manage the quiz data and provide a smooth user experience. Players are welcomed, they are asked to enter their names, and then participate in a quiz consisting of 4 questions. The quiz provides feedback based on the player's score at the end.
+
+## User Stories
+
+- **As a** user,i want to see my quiz score immediately after completing a quiz so that i can know ho i performed.
+- **As a** user, i want to see the correct the answer to the question i got wrong so i can learn,increase my knowledge and avoid making mistakes in future.
+- **As a** user,i want a question with multiple choice options.
+
+
 
 ## Features
 
@@ -10,15 +18,10 @@ This is a Python quiz application that allows a player to answer multiple-choice
 - **Multiple Choice Questions**: The quiz contains 4 questions, each with multiple-choice options.
 - **Use of Data Structures**:
   - **Dictionary**: To store questions and their corresponding optionns and answers.
-  - **List**: To manage multiple-choice options for each question.
-  - **Tuple**: To define the immutable correct answers.
-- **Score Calculation**: The player's score is calculated based on each correct answers.
+  - **List**:  Manages multiple-choice options for each question.
+  - **Tuple**: Defines the immutable correct answers.
+- **Score Calculation**: The player's score is calculated and displayed based on each correct answers.
 - **Feedback**: Feedback is provided based on the player's score.
-
-
-### How to Run the Quiz
-
-
 ### Quiz Structure
 
 1. **Welcome and Player Input**:
@@ -56,9 +59,10 @@ This is a Python quiz application that allows a player to answer multiple-choice
 - **`correct_answers`**: A tuple containing the correct answers for the questions.
 - **`score`**: An integer variable to track the player's score.
 
-### Example of Code Structure
+### Code Structure
+```
 """Define the quiz topic"""
-topic = "Python Quiz Application"
+"Python Quiz Application"
 
 """Welcome the player"""
 print(f"Welcome to the {Python} Quiz! Application")
@@ -81,7 +85,10 @@ score = 0
         for option in details("options"):
             print(option)
        if answer == details ("answer")
-       print("correct!")
+       print("correct!\n")
+       score +=1
+```
+       
 ###  Credit 
 
 - Code institute for the deployment terminal
