@@ -1,7 +1,7 @@
 
 # Python Quiz Application
 
-This is a Python-based quiz application that allows a player to answer multiple-choice questions on a specified topic. The application uses dictionaries, lists, and tuples to manage the quiz data and provide a smooth user experience. Players will be welcomed, prompted to enter their names, and then participate in a quiz consisting of 4 questions. The quiz provides feedback based on the player's score at the end.
+This is a Python quiz application that allows a player to answer multiple-choice questions on a particular topic. The application uses dictionaries, lists, and tuples to manage the quiz data and provide a smooth user experience. Players are welcomed, prompted to enter their names, and then participate in a quiz consisting of 4 questions. The quiz provides feedback based on the player's score at the end.
 
 ## Features
 
@@ -31,7 +31,7 @@ This is a Python-based quiz application that allows a player to answer multiple-
 
 2. **Quiz Questions**:
     - The quiz presents 4 questions with multiple-choice options.
-    - The player selects an answer by typing the corresponding letter (e.g., a, b, c, d.
+    - The player selects an answer by typing the corresponding letter e.g., a, b, c, d.
     - Example:
       ```
       Q1: What is the full meaning  of PEP?
@@ -46,9 +46,7 @@ This is a Python-based quiz application that allows a player to answer multiple-
     - As the questions are been answered, the player receives  score and feedback based on their performance.
     - Example feedback based on score:
       - **2-3**: "Good job! 
-      - **4**: "Excellent! You got all the questions correct!"
-
-## Code Overview
+      - **4**: "Excellent! Congratulations You got all the questions correct!"
 
 ### Variables and Data Structures
 
@@ -58,9 +56,7 @@ This is a Python-based quiz application that allows a player to answer multiple-
 - **`correct_answers`**: A tuple containing the correct answers for the questions.
 - **`score`**: An integer variable to track the player's score.
 
-### Example Code Structure
-
-```python
+### Example of Code Structure
 """Define the quiz topic"""
 topic = "Python Quiz Application"
 
@@ -73,7 +69,7 @@ quiz= {
     "What is the full meaning of PEP?
 }
 
-correct_answers = ('D', 'B', 'C', 'D')
+correct_answers = ('d', 'b, 'c', 'd')
 
 """Initialize score"""
 score = 0
@@ -86,5 +82,10 @@ score = 0
             print(option)
        if answer == details ("answer")
        print("correct!")
+###  Credit 
+
+- Code institute for the deployment terminal
+- LMS
+- w3school(https://www.w3schools.com)
 
         
