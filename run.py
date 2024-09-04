@@ -26,7 +26,7 @@ while True:
     if validate_name(player_name):
         break
 
-print(f"Hello, {player_name}! Let's start the quiz.\n")
+print(f"Hello, {player_name}! Rules: enter either a,b,c or d the correct answer to each question. Let's start the quiz.\n")
 
 # Define the quiz questions, options, and other variables
 quiz = {
