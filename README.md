@@ -8,8 +8,9 @@ This is a Python quiz application that allows a player to answer multiple-choice
 
 - **As a** user,i want to see my quiz score immediately after completing a quiz so that i can know how i performed.
 - **As a** user, i want to see the correct answer to the question i got wrong so i can learn,increase my knowledge and avoid making mistakes in future.
-- **As a** user,i want a question with multiple choice options.
-- **As a** user, if i mistakenly enter an invalid answer,i wil be reminded to enter a valid given. 
+- **As a** user, i want a question with multiple choice options.
+- **As a** user, if i mistakenly enter an invalid answer,i will be reminded to enter a valid given. 
+- **As a** user, i will like to be guided with rules to ensure i flow along easily with the quiz.
 ## Typography
 
 I decided to go for Courier New Monosapce because it almost matches the text of that of the Python Terminal.
