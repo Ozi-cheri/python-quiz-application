@@ -1,4 +1,4 @@
-import re
+import re # Import the 're' module for regular expressions, used for input validation
 
 # Function to validate the player's name (only alphabetic characters and spaces)
 def validate_name(name):
