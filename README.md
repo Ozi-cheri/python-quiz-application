@@ -66,42 +66,37 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
 - **`score`**: An integer variable to track the player's score.
 
 
-### Code Structure
+### Code Structure Example
 ```
 
-### Example of Code Structure
-
-
-"""Define the quiz topic"""
+#  Define the quiz topic
 "Python Quiz Application"
 
-"""Welcome the player"""
+#  Welcome the player
 print(f"Welcome to the {Python} Quiz! Application")
 player_name = input("Please enter your name: ")
+if validate_name(player_name) :
+    break
 
-"""Dictionary to store questions and their multiple-choice options"""
+#  Defines the quiz questions,options and other variables
 quiz= {
-    "What is the full meaning of PEP?
+    "What is the full meaning of PEP?: 
 }
 
 correct_answers = ('d', 'b, 'c', 'd')
 
-"""Initialize score"""
+#  Initialize 
 score = 0
 
-""" define questions and get answers"""
+#  Iterate through the quiz questions
 
     for question,details in quiz.items():
-        print("question")
+        print(question)
         for option in details("options"):
             print(option)
-       if answer == details ("answer")
-
-       print("correct!\n")
-       score +=1
+               
 ```
        
-       print("correct!")
 
 ###  Credit 
 
