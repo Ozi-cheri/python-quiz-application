@@ -97,9 +97,29 @@ score = 0
             print(option)
                
 ```
+### Features Left to Implement
+
+
+### Technologies used
+
+
+
+### Testing
+
+
+
+### Challenges Faced
+
+
+
+### Code Validation
+
+
+### Deployment
        
 
-###  Credit 
+### Credits
+### Content 
 
 - Code institute for the deployment terminal
 - LMS
