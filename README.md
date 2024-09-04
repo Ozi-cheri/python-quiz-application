@@ -62,9 +62,10 @@ This is a Python quiz application that allows a player to answer multiple-choice
 
 ### Code Structure
 ```
-=======
+
 ### Example of Code Structure
->>>>>>> refs/remotes/origin/main
+
+
 """Define the quiz topic"""
 "Python Quiz Application"
 
