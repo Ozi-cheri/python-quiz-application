@@ -1,6 +1,8 @@
-import re # Import the 're' module for regular expressions, used for input validation
-
-# Function to validate the player's name (only alphabetic characters and spaces)
+# Import the 're' module for regular expressions, 
+# used for input validation
+import re 
+# Function to validate the player's name 
+# only alphabetic characters and spaces
 def validate_name(name):
     if re.match("^[A-Za-z ]+$", name):
         return True
@@ -8,7 +10,8 @@ def validate_name(name):
         print("Invalid name. Please enter a name using alphabetic characters only.")
         return False
 
-# Function to validate the player's answer (must be a single character a, b, c, or d)
+# Function to validate the player's answer 
+# (must be a single character a, b, c, or d)
 def validate_answer(answer):
     if re.match("^[a-dA-D]$", answer):
         return True
@@ -65,13 +68,11 @@ for question, details in quiz.items():
     print(question)
     for option in details["options"]:
         print(option)
-    
     # Get the player's answer with validation
     while True:
         answer = input("Please enter your answer: ").lower()
         if validate_answer(answer):
             break
-    
     # Check if the answer is correct
     if answer == details["answer"]:
         print("Correct!\n")
@@ -87,6 +88,7 @@ elif score >= len(quiz) // 2:
     print("Good Job!")
 else:
     print("Good luck next time!")
+
 
 
       
