@@ -26,8 +26,8 @@ while True:
     if validate_name(player_name):
         break
 
-print(f"Hello, {player_name}! Rules: enter either a,b,c or d the correct answer to each question. Let's start the quiz.\n")
-
+print(f"Hello, {player_name}!Let's start the quiz.\n")
+print("Rules: Enter either a,b,c or d the correct answer to each question.")
 # Define the quiz questions, options, and other variables
 quiz = {
     "What is the full meaning of PEP?": {
@@ -88,6 +88,16 @@ elif score >= len(quiz) // 2:
     print("Good Job!")
 else:
     print("Good luck next time!")
+# Main function to control whether the player wants to play again.
+def main():
+    while True:
+        play_quiz()
+        choice = input("Do you want to play again? (yes/no):").lower()
+        if choice == 'no':
+            print("Thanks for playing!Goodbye.")
+            break
+        elif choice != 'yes':
+            print("Invalid choice,please type 'yes' or 'no'.")
 
 
 
