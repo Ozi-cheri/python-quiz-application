@@ -17,9 +17,9 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
 
 
 ## Features
+### Existing Features
 
 - **Topic Definition**: The quiz has a readable and defined topic.
-- **Player Interaction**: The player is welcomed and asked to input their name.
 - **Multiple Choice Questions**: The quiz contains 4 questions, each with 4 multiple-choice options.
 - **Use of Data Structures**:
   - **Dictionary**: To store questions and their corresponding optionns and answers.
