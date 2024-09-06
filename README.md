@@ -36,7 +36,10 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
       Welcome to the Python Quiz!
       Please enter your name: Ada
       ```
-      Validation is used here to ensure they enter a name using alphabetical characters only.
+      Validation is used here to ensure they enter a name using alphabetical characters only. If the name is not in alphabetical character,the player will be reminded to enter a valid name.
+     
+      ![Reference image](/images/screenshot8.png)
+
 
 2. **Quiz Questions**:
     - The quiz presents 4 questions with multiple-choice options.
@@ -50,13 +53,19 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
       D. Python enhancement proposal
       Enter your answer: D
       ```
-      Validation is used to ensure they enter only valid options.
+      Validation is used to ensure they enter only valid answer.When they enter an invalid answer,a message pops up reminding them to enter a valid answer.
+
+      ![Refrence image](/images/screenshot1.png)
+
+      
 
 3. **Score Calculation and Feedback**:
     - As the questions are been answered, the player receives  score and feedback based on their performance.
     - Example feedback based on score:
       - **2-3**: "Good job! 
       - **4**: "Excellent! Congratulations You got all the questions correct!"
+
+      ![Reference image](/images/screenshot5.png)
 
 ### Variables and Data Structures
 
@@ -97,10 +106,17 @@ score = 0
             print(option)
                
 ```
+
+![Reference image](/images/screenshot3.png)
+
+![Reference image](/images/screenshot6.png)
+
 ### Features Left to Implement
 
 
 ### Technologies used
+
+
 
 
 
