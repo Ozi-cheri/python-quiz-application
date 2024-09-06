@@ -2,7 +2,7 @@
 # Python Quiz Application
 
 # Introduction
-This is a Python quiz application that allows a player to answer multiple-choice questions on a particular topic in a terminal. The application uses dictionaries, lists, and tuples to manage the quiz data and provide a smooth user experience. Players are welcomed, they are asked to enter their names, and then participate in a quiz consisting of 4 questions. The quiz provides feedback based on the player's score at the end. 
+The Python quiz application  is a simple command-line quiz game. It provides the player with a series of multiple-choice questions about Python and general computer science topics. The player must answer each question by selecting from  the options a,b,c or d. Ater completing the quiz, the player's score is displayed,and they are given the option to play again or quit.
 
 ## User Stories
 
@@ -11,6 +11,7 @@ This is a Python quiz application that allows a player to answer multiple-choice
 - **As a** user, i want a question with multiple choice options.
 - **As a** user, if i mistakenly enter an invalid answer,i will be reminded to enter a valid given. 
 - **As a** user, i will like to be guided with rules to ensure i flow along easily with the quiz.
+- **As a** user, i will like to replay the game especially if i got bad score.
 ## Typography
 
 I decided to go for Courier New Monosapce because it almost matches the text of that of the Python Terminal.
@@ -27,6 +28,7 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
   - **Tuple**: Defines the immutable correct answers.
 - **Score Calculation**: The player's score is calculated and displayed at the end of the quiz.
 - **Feedback**: Feedback is provided based on the player's score.
+
 ### Quiz Structure
 
 1. **Welcome and Player Input**:
@@ -59,7 +61,7 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
 
       
 
-3. **Score Calculation and Feedback**:
+3. **Score Calculation Feedback And Replay**:
     - As the questions are been answered, the player receives  score and feedback based on their performance.
     - Example feedback based on score:
       - **2-3**: "Good job! 
@@ -67,13 +69,19 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
 
       ![Reference image](/images/screenshot5.png)
 
-### Variables and Data Structures
+      The player is given an option to play again or eist.
 
-- **`topic`**: A string variable that defines the quiz topic.
-- **`player_name`**: A variable to store the player's name input.
-- **`questions`**: A dictionary where keys are questions and values are lists of possible answers.
-- **`correct_answers`**: A tuple containing the correct answers for the questions.
-- **`score`**: An integer variable to track the player's score.
+      ![Reference image]
+
+### Code Overview
+#### Key Files
+-quiz_app.py: This is the main Python script containing the quiz logic.
+#### Code Functions
+1.Validate_name(name): Validate sthe player's name to ensure it only contzains alphabetic characters and spaces.
+2.Validat_answer(answer): Validates the player's answer to ensure it correspond to one of the options:a,b,c or d.
+3.Play_quiz(): Handles the quiz logic,as well as asking questios, checking answers and displaying scores.
+4.Main(): Manages the flow of the game,including replaying or quitting based on the player's choice.
+
 
 
 ### Code Structure Example
@@ -115,6 +123,10 @@ score = 0
 
 
 ### Technologies used
+
+-Python(Version 3.x)
+-Regular expression for input(re module)
+No additional dependencies were used for this project,it only relies on Python's built in libraries.
 
 
 
