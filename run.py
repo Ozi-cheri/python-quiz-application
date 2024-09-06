@@ -1,5 +1,6 @@
-
-# Function to validate the player's name (only alphabetic characters and spaces)
+ 
+# Function to validate the player's name 
+# (only alphabetic    characters and spaces)
 import re
 def validate_name(name):
     if re.match("^[A-Za-z ]+$", name):
@@ -16,12 +17,20 @@ def validate_answer(answer):
         print("Invalid answer. Please enter a valid option (a, b, c, or d).")
         return False
 
-# Function to run the quiz
-def play_quiz():
+# Function to welcome the player and get their name
+def welcome_player():
+    print("Welcome to Python Quiz Application!")
+    while True:
+        player_name = input("Please enter your name: ")
+        if validate_name(player_name):
+            break
     print(f"Hello, {player_name}! Let's start the quiz.\n")
     print("Rules: Enter either a, b, c, or d for the correct answer to each question.")
+    return player_name
 
-    # Define the quiz questions, options, and other variables
+# Function to run the quiz
+def play_quiz(player_name):
+# Define the quiz questions, options, and other variables
     quiz = {
         "What is the full meaning of PEP?": {
             "options": ["a) Python element particles", 
@@ -50,8 +59,38 @@ def play_quiz():
                         "c) String", 
                         "d) Error"],
             "answer": "d"
+        },
+        
+        "What is the correct file extension for Python files?": {
+            "options": ["a) .pyth", 
+                        "b) .pt",
+                        "c) .py", 
+                        "d) .python"],
+            "answer": "c"
+        },
+        "What is the output of this code: print(2 * 3 + 4)?": {
+            "options": ["a) 14", 
+                        "b) 10", 
+                        "c) 12", 
+                        "d) 20"],
+            "answer": "b"
+        },
+        "Which of the following is a mutable data type in Python?": {
+            "options": ["a) Tuple", 
+                        "b) String", 
+                        "c) List", 
+                        "d) Integer"],
+            "answer": "c"
+        },
+        "Which keyword is used to define a function in Python?": {
+            "options": ["a) func", 
+                        "b) def", 
+                        "c) function", 
+                        "d) lambda"],
+            "answer": "b"
+        },
+     
         }
-    }
 
     # Initialize score
     score = 0
@@ -84,73 +123,23 @@ def play_quiz():
 
 # Main function to control whether the player wants to play again
 def main():
+    # Welcome player and get their name
+    player_name = welcome_player() 
     while True:
-        play_quiz()
+        play_quiz(player_name)  # Pass player name to the quiz
 
         # Ask if they want to replay or quit
         while True:
             choice = input("Do you want to play again? (yes/no): ").lower()
             if choice == 'no':
-                print("Thanks for playing! Goodbye.")
-                return  # Exit the entire program
+                print(f"Thanks for playing, {player_name}! Goodbye.")
+                return  
             elif choice == 'yes':
                 print("Starting a new game...\n")
-                break  # Breaks inner loop and starts the quiz again
+                break  
             else:
                 print("Invalid choice, please type 'yes' or 'no'.")
 
 # Run the main function if the script is executed
 if __name__ == "__main__":
-    print("Welcome to Python Quiz Application:")
-    while True:
-        player_name = input("Please enter your name: ")
-        if validate_name(player_name):
-            break
-    
     main()
-
-
-
-
-      
-     
-     
-
-     
-
-    
-     
-
-    
-
-
-
-
-
-        
-    
-
-    
-    
-    
-
-
-
-    
-
-
-
-
-    
-
-    
-
-    
-    
-
-
-
-    
-
-
-

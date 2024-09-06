@@ -2,7 +2,7 @@
 # Python Quiz Application
 
 # Introduction
-The Python quiz application  is a simple command-line quiz game. It provides the player with a series of multiple-choice questions about Python and general computer science topics. The player must answer each question by selecting from  the options a,b,c or d. Ater completing the quiz, the player's score is displayed,and they are given the option to play again or quit.
+The Python quiz application  is a simple command-line quiz game. It provides the player with a series of multiple-choice questions about Python and general computer science knowledge. The player must answer each question by selecting from  the options a,b,c or d. Ater completing the quiz, the player's score and feedback are displayed,and they are given the option to play again or quit.
 
 ## User Stories
 
@@ -11,7 +11,7 @@ The Python quiz application  is a simple command-line quiz game. It provides the
 - **As a** user, i want a question with multiple choice options.
 - **As a** user, if i mistakenly enter an invalid answer,i will be reminded to enter a valid given. 
 - **As a** user, i will like to be guided with rules to ensure i flow along easily with the quiz.
-- **As a** user, i will like to replay the game especially if i got bad score.
+- **As a** user, i will like to replay the game especially if i did not do well.
 ## Typography
 
 I decided to go for Courier New Monosapce because it almost matches the text of that of the Python Terminal.
@@ -64,14 +64,21 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
 3. **Score Calculation Feedback And Replay**:
     - As the questions are been answered, the player receives  score and feedback based on their performance.
     - Example feedback based on score:
-      - **2-3**: "Good job! 
-      - **4**: "Excellent! Congratulations You got all the questions correct!"
+      - **4-7**: "Good job! 
+      - **8**: "Excellent! Congratulations You got all the questions correct!"
 
       ![Reference image](/images/screenshot5.png)
 
-      The player is given an option to play again or eist.
+      The player is given options to play again or eist.
 
-      ![Reference image]
+      ![Reference image](/images/screenshot9.png)
+
+  In the above reference image,the function is wrapped in a while True loop to ensure the game keeps running until the player decides to quit.
+  The quiz function (play_quiz()) is called if the player wants to replay.The game exits with a farewell message when the player chooses "no".If the player inputs anything other than "yes" or "no", the function will demand again for valid input.This function ensures smooth navigation between replaying the quiz or exiting, making the game more interactive and user-friendly.
+
+  ![Reference image](/images/screenshot10.png)
+
+  ![Reference image](/images/screenshot11.png)
 
 ### Code Overview
 #### Key Files
