@@ -1,7 +1,7 @@
 
 # Python Quiz Application
 
-# Introduction
+## Introduction
 The Python quiz application  is a simple command-line quiz game. It provides the player with a series of multiple-choice questions about Python and general computer science knowledge. The player must answer each question by selecting from  the options a,b,c or d. Ater completing the quiz, the player's score and feedback are displayed,and they are given the option to play again or quit.
 
 ## User Stories
@@ -14,16 +14,16 @@ The Python quiz application  is a simple command-line quiz game. It provides the
 - **As a** user, i will like to replay the game especially if i did not do well.
 ## Typography
 
-I decided to go for Courier New Monosapce because it almost matches the text of that of the Python Terminal.
+* I decided to go for Courier New Monosapce because it almost matches the text of that of the Python Terminal.
 
 
 ## Features
 ### Existing Features
 
 - **Topic Definition**: The quiz has a readable and defined topic.
-- **Multiple Choice Questions**: The quiz contains 4 questions, each with 4 multiple-choice options.
+- **Multiple Choice Questions**: The quiz contains 8 questions, each with 8 multiple-choice options.
 - **Use of Data Structures**:
-  - **Dictionary**: To store questions and their corresponding optionns and answers.
+  - **Dictionary**: To store questions and their corresponding options and answers.
   - **List**:  Manages multiple-choice options for each question.
   - **Tuple**: Defines the immutable correct answers.
 - **Score Calculation**: The player's score is calculated and displayed at the end of the quiz.
@@ -44,7 +44,7 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
 
 
 2. **Quiz Questions**:
-    - The quiz presents 4 questions with multiple-choice options.
+    - The quiz presents 8 questions with multiple-choice options.
     - The player selects an answer by typing the corresponding letter e.g., a, b, c or d.
     - Example:
       ```
@@ -67,97 +67,78 @@ I decided to go for Courier New Monosapce because it almost matches the text of 
       - **4-7**: "Good job! 
       - **8**: "Excellent! Congratulations You got all the questions correct!"
 
-      ![Reference image](/images/screenshot5.png)
-
-      The player is given options to play again or eist.
-
-      ![Reference image](/images/screenshot9.png)
+      ![Reference image](/images/screenshot14.png)
 
   In the above reference image,the function is wrapped in a while True loop to ensure the game keeps running until the player decides to quit.
-  The quiz function (play_quiz()) is called if the player wants to replay.The game exits with a farewell message when the player chooses "no".If the player inputs anything other than "yes" or "no", the function will demand again for valid input.This function ensures smooth navigation between replaying the quiz or exiting, making the game more interactive and user-friendly.
+  The quiz function (play_quiz()) is called if the player wants to replay.The game exits with a farewell message when the player chooses "no".If the player inputs anything other than "yes" or "no", the function will demand again for valid input.This function ensures smooth navigation between replaying the quiz or quitting, making the game more interactive and user-friendly.
 
-  ![Reference image](/images/screenshot10.png)
+  ![Reference image](/images/screenshot13.png)
 
   ![Reference image](/images/screenshot11.png)
 
-### Code Overview
-#### Key Files
--quiz_app.py: This is the main Python script containing the quiz logic.
+  ### General Structure of How to Play
+  * Enter your name:
+
+You will be prompted to enter your name. The name should contain only alphabetic characters and spaces.
+If the input is invalid, you will be prompted to re-enter your name until a valid name is provided.
+  * Answering questions:
+
+After the quiz begins, you will be presented with one multiple-choice question at a time.
+Type either 'a', 'b', 'c', or 'd' as your answer, then press Enter.
+If you provide an invalid answer, you will be prompted to try again.
+  * Score feedback:
+
+Once all questions are answered, your score will be displayed. You will receive feedback based on your performance.
+  * Play again or quit:
+
+After completing the quiz, you will be asked whether you want to play again.
+Type 'yes' to start a new game or 'no' to quit.
+
 #### Code Functions
-1.Validate_name(name): Validate sthe player's name to ensure it only contzains alphabetic characters and spaces.
-2.Validat_answer(answer): Validates the player's answer to ensure it correspond to one of the options:a,b,c or d.
-3.Play_quiz(): Handles the quiz logic,as well as asking questios, checking answers and displaying scores.
-4.Main(): Manages the flow of the game,including replaying or quitting based on the player's choice.
-
-
+* Quiz_app.py: This is the main Python script containing the quiz logic.
+* Validate_name(name): Validate the player's name to ensure it only contains alphabetic characters and spaces.
+* Validate_answer(answer): Validates the player's answer to ensure it correspond to one of the options:a,b,c or d.
+* Play_quiz(): Handles the quiz logic,as well as asking questios, checking answers and displaying scores.
+* Main(): Manages the flow of the game,including replaying or quitting based on the player's choice.
 
 ### Code Structure Example
-```
 
-#  Define the quiz topic
-"Python Quiz Application"
-
-#  Welcome the player
-print(f"Welcome to the {Python} Quiz! Application")
-player_name = input("Please enter your name: ")
-if validate_name(player_name) :
-    break
-
-#  Defines the quiz questions,options and other variables
-quiz= {
-    "What is the full meaning of PEP?: 
-}
-
-correct_answers = ('d', 'b, 'c', 'd')
-
-#  Initialize 
-score = 0
-
-#  Iterate through the quiz questions
-
-    for question,details in quiz.items():
-        print(question)
-        for option in details("options"):
-            print(option)
-               
-```
-
-![Reference image](/images/screenshot3.png)
-
-![Reference image](/images/screenshot6.png)
+![Reference image](/images/screenshot15.png)
 
 ### Features Left to Implement
+* Implement a multiplayer mode where two or more players can compete by answering questions in turns in future.
 
 
 ### Technologies used
 
--Python(Version 3.x)
--Regular expression for input(re module)
+* Python(Version 3.x)
+* Regular expression for input(re module)
+* pip
+* GitHub 
 No additional dependencies were used for this project,it only relies on Python's built in libraries.
-
-
-
-
-
 ### Testing
 
 
 
 ### Challenges Faced
+* When i checked my code,
 
 
 
 ### Code Validation
-
+* The code was checked using the PEP8 checker
 
 ### Deployment
        
 
 ### Credits
-### Content 
+#### Content 
 
-- Code institute for the deployment terminal
-- LMS
+- Code institute (https://codeinstitute.net/) 
+  * I made use of the LMS walkthrough video to get the general knowledge of the Python project.
+
+- Stack Overflow (https://stackoverflow.com)
+  * For the code to validate player's name and correct answer.
 - w3school(https://www.w3schools.com)
 
         
