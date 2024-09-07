@@ -9,7 +9,7 @@ The Python quiz application  is a simple command-line quiz game. It provides the
 - **As a** user,i want to see my quiz score immediately after completing a quiz so that i can know how i performed.
 - **As a** user, i want to see the correct answer to the question i got wrong so i can learn,increase my knowledge and avoid making mistakes in future.
 - **As a** user, i want a question with multiple choice options.
-- **As a** user, if i mistakenly enter an invalid answer,i will be reminded to enter a valid given. 
+- **As a** user, if i mistakenly enter an invalid answer,i will be reminded to enter the valid given answers.
 - **As a** user, i will like to be guided with rules to ensure i flow along easily with the quiz.
 - **As a** user, i will like to replay the game especially if i did not do well.
 ## Typography
