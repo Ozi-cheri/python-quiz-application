@@ -29,7 +29,7 @@ The Python quiz application  is a simple command-line quiz game. It provides the
 - **Score Calculation**: The player's score is calculated and displayed at the end of the quiz.
 - **Feedback**: Feedback is provided based on the player's score.
 
-### Quiz Structure
+## Quiz Structure
 
 1. **Welcome and Player Input**:
     - The player is welcomed and prompted to enter their name.
@@ -55,12 +55,10 @@ The Python quiz application  is a simple command-line quiz game. It provides the
       D. Python enhancement proposal
       Enter your answer: D
       ```
-      Validation is used to ensure they enter only valid answer.When they enter an invalid answer,a message pops up reminding them to enter a valid answer.
+      Validation is used to ensure they enter only valid alphabical answer.
 
       ![Refrence image](/images/screenshot1.png)
-
       
-
 3. **Score Calculation Feedback And Replay**:
     - As the questions are been answered, the player receives  score and feedback based on their performance.
     - Example feedback based on score:
@@ -74,9 +72,9 @@ The Python quiz application  is a simple command-line quiz game. It provides the
 
   ![Reference image](/images/screenshot13.png)
 
-  ![Reference image](/images/screenshot11.png)
+  ![Reference image](/images/screenshot16.png)
 
-  ### General Structure of How to Play
+  ## General Structure of How to Play
   * Enter your name:
 
 You will be prompted to enter your name. The name should contain only alphabetic characters and spaces.
@@ -94,51 +92,57 @@ Once all questions are answered, your score will be displayed. You will receive 
 After completing the quiz, you will be asked whether you want to play again.
 Type 'yes' to start a new game or 'no' to quit.
 
-#### Code Functions
+## Code Functions
 * Quiz_app.py: This is the main Python script containing the quiz logic.
 * Validate_name(name): Validate the player's name to ensure it only contains alphabetic characters and spaces.
 * Validate_answer(answer): Validates the player's answer to ensure it correspond to one of the options:a,b,c or d.
 * Play_quiz(): Handles the quiz logic,as well as asking questios, checking answers and displaying scores.
 * Main(): Manages the flow of the game,including replaying or quitting based on the player's choice.
 
-### Code Structure Example
+## Code Structure Example
 
 ![Reference image](/images/screenshot15.png)
 
-### Features Left to Implement
-* Implement a multiplayer mode where two or more players can compete by answering questions in turns in future.
+## Features Left to Implement
+* I would implement a multiplayer mode where two or more players can compete by answering questions in turns in future.
 
 
-### Technologies used
+## Technologies used
 
 * Python(Version 3.x)
 * Regular expression for input(re module)
 * pip
 * GitHub 
+* Gitpod
 No additional dependencies were used for this project,it only relies on Python's built in libraries.
-### Testing
+## Testing
+
+* As the apllication was being developed,i performed manual testing regulary making sure i get required outputs.
 
 
 
-### Challenges Faced
+## Challenges Faced
 * When i checked my code,
 
 
 
-### Code Validation
+## Code Validation
 * The code was checked using the PEP8 checker
 
-### Deployment
+## Deployment
        
 
-### Credits
-#### Content 
+## Credits
+### Content 
 
-- Code institute (https://codeinstitute.net/) 
-  * I made use of the LMS walkthrough video to get the general knowledge of the Python project.
+- Code institute (https://learn.codeinstitute.net/) 
+  * I made use of the LMS walkthrough videos to get the general knowledge of the Python project. Code institute python essential template was also used for the development of the application.
 
 - Stack Overflow (https://stackoverflow.com)
   * For the code to validate player's name and correct answer.
+
 - w3school(https://www.w3schools.com)
+  * W3school was used as the project was being develpoed.
+
 
         
