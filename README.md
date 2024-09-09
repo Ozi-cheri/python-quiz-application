@@ -1,6 +1,8 @@
 
 # Python Quiz Application
 
+![Welcome image](/images/screenshot18.png)
+
 ## Introduction
 The Python quiz application  is a simple command-line quiz game. It provides the player with a series of multiple-choice questions about Python and general computer science knowledge. The player must answer each question by selecting from  the options a,b,c or d. Ater completing the quiz, the player's score and feedback are displayed,and they are given the option to play again or quit.
 
@@ -115,6 +117,9 @@ Type 'yes' to start a new game or 'no' to quit.
 * GitHub for storing the repository online during development.
 * Gitpod as a cloud based IDE.
 
+## External Python Package Used
+* Pyfiglet, a library to convert text to ascii.
+
 ## Testing
 
 * As the apllication was being developed,i performed manual testing regulary in the terminal making sure i get required outputs.
@@ -129,7 +134,7 @@ Type 'yes' to start a new game or 'no' to quit.
 
 ## Deployment
 
-  * Sign up for Heroku account and create free account. Create new app on Heroku by filling the form. Add the buildparks starting with Python,save then nodje and save as well respectively. Locate the deploy section,select Github and connect to it. Search for Github repository name and connect to link up the Heroku app to my Github repository code. Finally i deployed manually.
+  * Sign up for Heroku account and create free account. Create new app on Heroku by filling the form. Add the buildparks starting with Python,save then nodejs and save as well respectively. Locate the deploy section,select Github and connect to it. Search for Github repository name and connect to link up the Heroku app to my Github repository code. Finally i deployed manually.
        
 ## Credits
 ### Content 
