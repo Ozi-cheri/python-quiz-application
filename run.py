@@ -1,6 +1,10 @@
+
 # Function to validate the player's name
 # (only alphabetic    characters and spaces)
 import re
+# Function to convert text to ascii art
+import pyfiglet
+
 
 # Function to validate name
 def validate_name(name):
@@ -25,7 +29,8 @@ def validate_answer(answer):
 
 # Function to welcome the player and get their name
 def welcome_player():
-    print("Welcome to Python Quiz Application!")
+    f = pyfiglet.figlet_format("Welcome to Python quiz",font="slant")
+    print(f)
     while True:
         player_name = input("Please enter your name: ")
         if validate_name(player_name):
