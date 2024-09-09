@@ -135,7 +135,7 @@ Type 'yes' to start a new game or 'no' to quit.
 ### Content 
 
 - Code institute (https://learn.codeinstitute.net/) 
-  * I made use of the LMS walkthrough videos to get the general knowledge of the Python project. The questions used was generated from LMS. Code institute python essential template was also used for the development of the application.
+  * I made use of the LMS walkthrough videos to get the general knowledge of the Python project and as i develop the project. The questions used was generated from LMS. Code institute python essential template was also used for the development of the application.
 
 - Stack Overflow (https://stackoverflow.com)
   * For the code to validate player's name and input of correct answer.
