@@ -114,10 +114,10 @@ Type 'yes' to start a new game or 'no' to quit.
 * pip for installing python packages.
 * GitHub for storing the repository online during development.
 * Gitpod as a cloud based IDE.
-No additional dependencies were used for this project,it only relies on Python's built in libraries.
+
 ## Testing
 
-* As the apllication was being developed,i performed manual testing regulary making sure i get required outputs.
+* As the apllication was being developed,i performed manual testing regulary in the terminal making sure i get required outputs.
 
 ## Challenges Faced
 * When i checked my code,
@@ -138,7 +138,7 @@ No additional dependencies were used for this project,it only relies on Python's
   * I made use of the LMS walkthrough videos to get the general knowledge of the Python project. The questions used was generated from LMS. Code institute python essential template was also used for the development of the application.
 
 - Stack Overflow (https://stackoverflow.com)
-  * For the code to validate player's name and correct answer.
+  * For the code to validate player's name and input of correct answer.
 
 - w3school(https://www.w3schools.com)
   * W3school was used as the project was being develpoed.
