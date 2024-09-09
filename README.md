@@ -14,7 +14,7 @@ The Python quiz application  is a simple command-line quiz game. It provides the
 - **As a** user, i will like to replay the game especially if i did not do well.
 ## Typography
 
-* I decided to go for Courier New Monosapce because it almost matches the text of that of the Python Terminal.
+* I decided to go for Courier New Monosapce as font family since it is a default font on many systems and apllication, commonly used in text editors,command line interfaces and terminal applications.
 
 
 ## Features
