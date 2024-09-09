@@ -109,17 +109,15 @@ Type 'yes' to start a new game or 'no' to quit.
 
 ## Technologies used
 
-* Python(Version 3.x)
-* Regular expression for input(re module)
-* pip
-* GitHub 
-* Gitpod
+* Python(Version 3.x).
+* Regular expression for input(re module).
+* pip for installing python packages.
+* GitHub for storing the repository online during development.
+* Gitpod as a cloud based IDE.
 No additional dependencies were used for this project,it only relies on Python's built in libraries.
 ## Testing
 
 * As the apllication was being developed,i performed manual testing regulary making sure i get required outputs.
-
-
 
 ## Challenges Faced
 * When i checked my code,
@@ -130,8 +128,9 @@ No additional dependencies were used for this project,it only relies on Python's
 * The code was checked using the PEP8 checker
 
 ## Deployment
-       
 
+  * Sign up for Heroku account and create free account. Create new app on Heroku by filling the form. Add the buildparks starting with Python,save then nodje and save as well respectively. Locate the deploy section,select Github and connect to it. Search for Github repository name and connect to link up the Heroku app to my Github repository code. Finally i deployed manually.
+       
 ## Credits
 ### Content 
 
