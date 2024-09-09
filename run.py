@@ -1,21 +1,27 @@
- 
-# Function to validate the player's name 
+# Function to validate the player's name
 # (only alphabetic    characters and spaces)
 import re
+
+# Function to validate name
 def validate_name(name):
     if re.match("^[A-Za-z ]+$", name):
         return True
     else:
-        print("Invalid name. Please enter a name using alphabetic characters only.")
+        s = 'Invalid name. ' \
+            'Please enter a name using alphabetic characters only.'
+        print(s)
         return False
 
-# Function to validate the player's answer (must be a single character a, b, c, or d)
+
+# Function to validate the player's answer
+# Must be a single character a, b, c, or d
 def validate_answer(answer):
     if re.match("^[a-dA-D]$", answer):
         return True
     else:
         print("Invalid answer. Please enter a valid option (a, b, c, or d).")
         return False
+
 
 # Function to welcome the player and get their name
 def welcome_player():
@@ -25,24 +31,28 @@ def welcome_player():
         if validate_name(player_name):
             break
     print(f"Hello, {player_name}! Let's start the quiz.\n")
-    print("Rules: Enter either a, b, c, or d for the correct answer to each question.")
+    s = 'Rules: Enter either a, b, c, or d'\
+        'for the correct answer to each question.'
+    print(s)
     return player_name
 
+
 # Function to run the quiz
-def play_quiz(player_name):
 # Define the quiz questions, options, and other variables
+def play_quiz(player_name):
+
     quiz = {
         "What is the full meaning of PEP?": {
-            "options": ["a) Python element particles", 
+            "options": ["a) Python element particles",
                         "b) Prepared elected python",
-                        "c) Python pack project", 
+                        "c) Python pack project",
                         "d) Python enhancement proposal"],
             "answer": "d"
         },
         "What is the full meaning of RAM?": {
             "options": ["a) Remedy after memory",
                         "b) Random access memory",
-                        "c) Release access memory", 
+                        "c) Release access memory",
                         "d) Ready at memory"],
             "answer": "b"
         },
@@ -53,43 +63,44 @@ def play_quiz(player_name):
                         "d) A file"],
             "answer": "c"
         },
-        "What will you get if you use a variable name before a variable is assigned?": {
-            "options": ["a) Function", 
-                        "b) File", 
-                        "c) String", 
+        "What will you get if you use a variable name"
+        "before a variable is assigned?": {
+            "options": ["a) Function",
+                        "b) File",
+                        "c) String",
                         "d) Error"],
             "answer": "d"
         },
-        
+
         "What is the correct file extension for Python files?": {
-            "options": ["a) .pyth", 
+            "options": ["a) .pyth",
                         "b) .pt",
-                        "c) .py", 
+                        "c) .py",
                         "d) .python"],
             "answer": "c"
         },
         "What is the output of this code: print(2 * 3 + 4)?": {
-            "options": ["a) 14", 
-                        "b) 10", 
-                        "c) 12", 
+            "options": ["a) 14",
+                        "b) 10",
+                        "c) 12",
                         "d) 20"],
             "answer": "b"
         },
         "Which of the following is a mutable data type in Python?": {
-            "options": ["a) Tuple", 
-                        "b) String", 
-                        "c) List", 
+            "options": ["a) Tuple",
+                        "b) String",
+                        "c) List",
                         "d) Integer"],
             "answer": "c"
         },
         "Which keyword is used to define a function in Python?": {
-            "options": ["a) func", 
-                        "b) def", 
-                        "c) function", 
+            "options": ["a) func",
+                        "b) def",
+                        "c) function",
                         "d) lambda"],
             "answer": "b"
         },
-     
+
         }
 
     # Initialize score
@@ -121,10 +132,11 @@ def play_quiz(player_name):
     else:
         print("Good luck next time!")
 
+
 # Main function to control whether the player wants to play again
 def main():
     # Welcome player and get their name
-    player_name = welcome_player() 
+    player_name = welcome_player()
     while True:
         play_quiz(player_name)  # Pass player name to the quiz
 
@@ -133,12 +145,13 @@ def main():
             choice = input("Do you want to play again? (yes/no): ").lower()
             if choice == 'no':
                 print(f"Thanks for playing, {player_name}! Goodbye.")
-                return  
+                return
             elif choice == 'yes':
                 print("Starting a new game...\n")
-                break  
+                break
             else:
                 print("Invalid choice, please type 'yes' or 'no'.")
+
 
 # Run the main function if the script is executed
 if __name__ == "__main__":
