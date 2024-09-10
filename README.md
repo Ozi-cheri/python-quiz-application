@@ -125,7 +125,7 @@ Type 'yes' to start a new game or 'no' to quit.
 * As the apllication was being developed,i performed manual testing regulary in the terminal making sure i get required outputs.
 
 ## Challenges Faced
-* When i checked my code,
+* I was unable to
 
 
 
