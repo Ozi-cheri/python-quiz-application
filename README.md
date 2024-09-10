@@ -129,12 +129,18 @@ This was used to create the quiz flowchart which presents the appliication struc
 * As the apllication was being developed,i performed manual testing regulary in the terminal making sure i get required outputs.
 
 ## Challenges Faced
-* I was unable to
-
+* During validation,there were few errors indicating no new line at the end of file. Example;
+```
+if__name__=="__main__":
+   main()
+This were corrected by ensuring i starts new lines at the end of files.
+```
 
 
 ## Code Validation
-* The code was checked using the PEP8 checker
+* The code was checked using the code institute python linter.
+* No issues or error where found.
+![Reference image](/images/screenshot23.png)
 
 ## Deployment
 
@@ -143,10 +149,10 @@ This was used to create the quiz flowchart which presents the appliication struc
 ## Credits
 ### Content 
 
-- Code institute (https://learn.codeinstitute.net/) 
-  * I made use of the LMS walkthrough videos to get the general knowledge of the Python project and as i develop the project. The questions used was generated from LMS. Code institute python essential template was also used for the development of the application.
+- Code institute (https://codeinstitute.net/) 
+  * I made use of the LMS python essential walkthrough videos to get the general knowledge of the Python project and as i develop the project. The questions used was generated from LMS. Code institute python essential template was also used for the development of the application.
 
-- Stack Overflow (https://stackoverflow.com)
+- StackOverflow (https://stackoverflow.com)
   * For the code to validate player's name and input of correct answer.
 
 - w3school(https://www.w3schools.com)
