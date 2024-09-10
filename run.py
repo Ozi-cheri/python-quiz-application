@@ -29,7 +29,7 @@ def validate_answer(answer):
 
 # Function to welcome the player and get their name
 def welcome_player():
-    f = pyfiglet.figlet_format("Welcome to Python quiz",font="slant")
+    f = pyfiglet.figlet_format("Welcome to Python quiz", font="slant")
     print(f)
     while True:
         player_name = input("Please enter your name: ")
@@ -143,7 +143,7 @@ def main():
     # Welcome player and get their name
     player_name = welcome_player()
     while True:
-        play_quiz(player_name)  # Pass player name to the quiz
+        play_quiz(player_name)
 
         # Ask if they want to replay or quit
         while True:
@@ -161,3 +161,5 @@ def main():
 # Run the main function if the script is executed
 if __name__ == "__main__":
     main()
+
+

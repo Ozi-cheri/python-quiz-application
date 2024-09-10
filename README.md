@@ -1,7 +1,7 @@
 
 # Python Quiz Application
 
-![Welcome image](/images/screenshot18.png)
+![Welcome image](/images/screenshot21.png)
 
 ## Introduction
 The Python quiz application  is a simple command-line quiz game. It provides the player with a series of multiple-choice questions about Python and general computer science knowledge. The player must answer each question by selecting from  the options a,b,c or d. Ater completing the quiz, the player's score and feedback are displayed,and they are given the option to play again or quit.
@@ -94,6 +94,10 @@ Once all questions are answered, your score will be displayed. You will receive 
 After completing the quiz, you will be asked whether you want to play again.
 Type 'yes' to start a new game or 'no' to quit.
 
+## Lucid Chart
+This was used to create the quiz flowchart which presents the appliication structure.
+ ![Reference image](/images/screenshot20.png)
+
 ## Code Functions
 * Quiz_app.py: This is the main Python script containing the quiz logic.
 * Validate_name(name): Validate the player's name to ensure it only contains alphabetic characters and spaces.
@@ -103,7 +107,7 @@ Type 'yes' to start a new game or 'no' to quit.
 
 ## Code Structure Example
 
-![Reference image](/images/screenshot15.png)
+![Reference image](/images/screenshot22.png)
 
 ## Features Left to Implement
 * I would implement a multiplayer mode where two or more players can compete by answering questions in turns in future.
@@ -111,7 +115,7 @@ Type 'yes' to start a new game or 'no' to quit.
 
 ## Technologies used
 
-* Python(Version 3.x).
+* Python
 * Regular expression for input(re module).
 * pip for installing python packages.
 * GitHub for storing the repository online during development.
