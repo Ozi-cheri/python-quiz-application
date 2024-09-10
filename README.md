@@ -129,7 +129,21 @@ This was used to create the quiz flowchart which presents the appliication struc
 
 * As the apllication was being developed,i performed manual testing regulary in the terminal making sure i get required outputs.
 
+## Sketch Of Manual Test Performed
+
+|Test Name            |     Outcome          |      Result         |
+|:--------------------|:--------------------:|--------------------:|
+|  Welcome message    |   Well displayed     |    Pass             | 
+| Username            |   Well displayed     |    Pass             |
+| Questions and Answer|   Well displayed     |    Pass             |
+| Final Score         |   Well displayed     |    Pass             |
+| Feedback            |   Well displayed     |    Pass             |
+| Play again          |   Well displayed     |    Pass             |
+
+
+
 ## Challenges Faced
+
 * During validation,there were few errors indicating no new line at the end of file. Example;
 ```
 if__name__=="__main__":
