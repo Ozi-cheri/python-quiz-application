@@ -96,6 +96,7 @@ Type 'yes' to start a new game or 'no' to quit.
 
 ## Lucid Chart
 This was used to create the quiz flowchart which presents the appliication structure.
+
  ![Reference image](/images/screenshot20.png)
 
 ## Code Functions
@@ -140,6 +141,7 @@ This were corrected by ensuring i starts new lines at the end of files.
 ## Code Validation
 * The code was checked using the code institute python linter.
 * No issues or error where found.
+
 ![Reference image](/images/screenshot23.png)
 
 ## Deployment
