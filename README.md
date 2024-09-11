@@ -4,7 +4,7 @@
 ![Welcome image](/images/screenshot21.png)
 
 ## Introduction
-The Python quiz application  is a simple command-line quiz game. It provides the player with a series of multiple-choice questions about Python and general computer science knowledge. The player must answer each question by selecting from  the options a,b,c or d. Ater completing the quiz, the player's score and feedback are displayed,and they are given the option to play again or quit.
+The Python quiz application  is a simple command-line quiz game. It provides the player with a series of multiple-choice questions about Python and general computer science knowledge. The player will answer each question by selecting from  the options a,b,c or d. After completing the quiz, the player's score and feedback are displayed,and they are given the option to play again or quit.
 
 ## User Stories
 
@@ -77,29 +77,32 @@ The Python quiz application  is a simple command-line quiz game. It provides the
   ![Reference image](/images/screenshot16.png)
 
   ## General Structure of How to Play
+  
   * Enter your name:
 
-You will be prompted to enter your name. The name should contain only alphabetic characters and spaces.
-If the input is invalid, you will be prompted to re-enter your name until a valid name is provided.
+ You will be prompted to enter your name. The name should contain only alphabetic characters and spaces.
+ If the input is invalid, you will be prompted to re-enter your name until a valid name is provided.
   * Answering questions:
 
-After the quiz begins, you will be presented with one multiple-choice question at a time.
-Type either 'a', 'b', 'c', or 'd' as your answer, then press Enter.
-If you provide an invalid answer, you will be prompted to try again.
+ After the quiz begins, you will be presented with one multiple-choice question at a time.
+ Type either 'a', 'b', 'c', or 'd' as your answer, then press Enter.
+ If you provide an invalid answer, you will be prompted to try again.
   * Score feedback:
 
-Once all questions are answered, your score will be displayed. You will receive feedback based on your performance.
+ Once all questions are answered, your score will be displayed. You will receive feedback based on your performance.
   * Play again or quit:
 
-After completing the quiz, you will be asked whether you want to play again.
-Type 'yes' to start a new game or 'no' to quit.
+ After completing the quiz, you will be asked whether you want to play again.
+ Type 'yes' to start a new game or 'no' to quit.
 
-## Lucid Chart
-This was used to create the quiz flowchart which presents the appliication structure.
+ ## Lucid Chart
+
+ This was used to create the quiz flowchart which presents the appliication structure.
+ 
  ![Reference image](/images/screenshot20.png)
 
-## Code Functions
-* Quiz_app.py: This is the main Python script containing the quiz logic.
+ ## Code Functions
+ * Quiz_app.py: This is the main Python script containing the quiz logic.
 * Validate_name(name): Validate the player's name to ensure it only contains alphabetic characters and spaces.
 * Validate_answer(answer): Validates the player's answer to ensure it correspond to one of the options:a,b,c or d.
 * Play_quiz(): Handles the quiz logic,as well as asking questios, checking answers and displaying scores.
@@ -176,7 +179,7 @@ This were corrected by ensuring i starts new lines at the end of files.
 ### Content 
 
 - Code institute (https://codeinstitute.net/) 
-  * I made use of the LMS walkthrough videos to get the general knowledge of the Python project and as i develop the project. The questions used was generated from the **Code Institute**. Code institute python essential template was also used for the development of the application.
+  * I made use of the LMS walkthrough videos to get the general knowledge of the Python project and as i develop the project. The questions used was generated from the **Code Institute** LMS. Code institute python essential template was also used for the development of the application.
 
 - StackOverflow (https://stackoverflow.com/questions)
   * For the code to validate player's name and input of correct answer.
