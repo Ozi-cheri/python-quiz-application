@@ -156,6 +156,21 @@ This were corrected by ensuring i starts new lines at the end of files.
 ## Deployment
 
   * Sign up for Heroku account and create free account. Create new app on Heroku by filling the form. Add the buildparks starting with Python,save then nodejs and save as well respectively. Locate the deploy section,select Github and connect to it. Search for Github repository name and connect to link up the Heroku app to my Github repository code. Finally i deployed manually.
+
+  ## Local Clone
+  
+  * Sign up or log in on Github
+  * Click "code" button,copy the provided link.
+  * Enter git clone in the terminal,paste the link and run.
+
+  ```
+  git clone https://github.com/ozi-cheri/python-quiz-application.git
+
+  ```
+
+  ## Fork Of Repository
+  * Locate the Github and log in [repository](#repository)
+  * Click the "Fork" button at the right top corner of the page.
        
 ## Credits
 ### Content 
@@ -168,6 +183,11 @@ This were corrected by ensuring i starts new lines at the end of files.
 
 - w3school(https://www.w3schools.com)
   * W3school was used as the project was being developed.
+
+
+  ## Acknowledegement
+  * Code Institute for this platform.
+  * My Mentor Gareth McGirr for his support and feedback.
 
 
         
