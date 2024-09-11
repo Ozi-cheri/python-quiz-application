@@ -154,6 +154,7 @@ This were corrected by ensuring i starts new lines at the end of files.
 ## Code Validation
 * The code was checked using the code institute python linter.
 * No issues or error where found.
+
 ![Reference image](/images/screenshot23.png)
 
 ## Deployment
@@ -171,7 +172,7 @@ This were corrected by ensuring i starts new lines at the end of files.
 
   ```
 
-  ## Fork Of Repository
+  ## Forking The Github Repository
   * Locate the Github and log in [repository](#repository)
   * Click the "Fork" button at the right top corner of the page.
        
