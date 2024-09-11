@@ -128,6 +128,17 @@ This was used to create the quiz flowchart which presents the appliication struc
 
 * As the apllication was being developed,i performed manual testing regulary in the terminal making sure i get required outputs.
 
+## Manual Test sketch 
+
+| Test Name          |   Output           |   Results          |
+|--------------------|--------------------|--------------------|
+|  Welcome Message   | Well displayed     |      Pass          |
+|  Name input        | Well  displayed    |      Pass          |
+|  Questions,Answer  | Well displayed     |      Pass          |
+|  Score,Feedback    | Well displayed     |      Pass          |
+|  Restart Game      | Well displayed     |      Pass          |
+
+
 ## Challenges Faced
 * During validation,there were few errors indicating no new line at the end of file. Example;
 ```
@@ -150,13 +161,13 @@ This were corrected by ensuring i starts new lines at the end of files.
 ### Content 
 
 - Code institute (https://codeinstitute.net/) 
-  * I made use of the LMS walkthrough videos to get the general knowledge of the Python project and as i develop the project. The questions used was generated from LMS. Code institute python essential template was also used for the development of the application.
+  * I made use of the LMS walkthrough videos to get the general knowledge of the Python project and as i develop the project. The questions used was generated from the **Code Institute**. Code institute python essential template was also used for the development of the application.
 
 - StackOverflow (https://stackoverflow.com/questions)
   * For the code to validate player's name and input of correct answer.
 
 - w3school(https://www.w3schools.com)
-  * W3school was used as the project was being develpoed.
+  * W3school was used as the project was being developed.
 
 
         
